@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Porfin funciono esta wea
+                    Porfin funciono esta weas
                 </div>
                 <div>
                     <small>Hace puro sueño hasta mañana</small>
