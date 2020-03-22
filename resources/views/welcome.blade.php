@@ -83,6 +83,9 @@
                 <div class="title m-b-md">
                     Porfin funciono esta wea
                 </div>
+                <div>
+                    <small>Hace puro sueño hasta mañana</small>
+                </div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
