@@ -1,5 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+@font-face {
+  font-family: normal;
+  src: url("/fonts/Monoton-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: normals;
+  src: url("/fonts/Chango-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: saira;
+  src: url("/fonts/SairaStencilOne-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10879,6 +10900,106 @@ a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
+  }
+}
+
+body {
+  background-color: #DFF0D8;
+}
+
+.bodys {
+  background-image: url("/images/home.jpg");
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+}
+
+div .img {
+  content: url("/images/home.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 5px;
+  display: none;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #d33c3c;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #40c0e0;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* computadora*/
+
+@media screen and (min-width: 601px) {
+  .sizes {
+    font-family: "normal";
+    color: green;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+    transition: width 2s, height 2s;
+  }
+
+  .sizes:hover {
+    font-family: "normal";
+    color: blue;
+    font-size: 3.8rem;
+  }
+
+  .float-lefts {
+    margin-left: -10%;
+    margin-top: 10%;
+  }
+
+  .t-home {
+    padding-top: 8%;
+    padding-left: 20%;
+  }
+}
+
+/* movil */
+
+@media screen and (max-width: 600px) {
+  .sizes {
+    font-family: "saira";
+    color: green;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sizes:hover {
+    font-family: "saira";
+    color: blue;
+    font-size: 0.2 0.1rem;
+  }
+
+  .t-home {
+    padding-top: 8%;
+    padding-bottom: 8%;
   }
 }
 

@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/css/app.css">
 
         <!-- Styles -->
         <style>
@@ -61,6 +62,8 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+
         </style>
     </head>
     <body>
@@ -81,12 +84,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Porfin funciono esta weas
+                    Bienvenidos
                 </div>
-                <div>
-                    <small>Hace puro sueño hasta mañana</small>
-                </div>
-                <button class="btn btn-primary">hello</button>
+
             </div>
         </div>
     </body>
