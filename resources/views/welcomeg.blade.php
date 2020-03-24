@@ -68,22 +68,29 @@
         <div class="row">
             <div class="col-sm ">
                 <div class="contaniner">
-                    <div class="col t-home">
-                        <h2 class="sizes">Programador</h2>
-                        <h2 class="sizes">Bootstrap</h2>
-                        <h2 class="sizes">Eloquent</h2>
-                        <h2 class="sizes">Laravel</h2>
-                        <h2 class="sizes">Vuejs</h2>
-                        <h2 class="sizes">CSS</h2>
+                    <div class="col t-home img-fluid">
+                        <h2 id="demo" class="sizes shake">Programador</h2>
+                        <h2 class="sizes shake">Bootstrap</h2>
+                        <h2 class="sizes shake">Eloquent</h2>
+                        <h2 class="sizes shake">Laravel</h2>
+                        <h2 class="sizes shake">Vuejs</h2>
+                        <h2 class="sizes shake">CSS</h2>
 
                     </div>
                 </div>
             </div>
             <div class="col-sm ">
                 <div class="container ">
-                    <img class="img-fluid float-lefts" src="/images/HOME.png" alt="Mi foto" width="auto" height="auto">
+                    <img class="img-fluid float-lefts shake" src="/images/HOME.png" alt="Mi foto" width="auto" height="auto">
                 </div>
             </div>
         </div>
     </body>
 </html>
+<script>
+ $('#demo').jrumble({
+    rangeX: 10,
+	rangeY: 10,
+	rangeRot: 4
+ });
+</script>

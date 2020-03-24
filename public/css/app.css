@@ -10921,6 +10921,155 @@ div .img {
   height: 100%;
 }
 
+.shake {
+  transition: all 0.1s ease-in-out;
+}
+
+.shake:hover {
+  -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+          animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(2px, 1px) rotate(0deg);
+    color: red;
+    transform: translate(-10x);
+  }
+
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+    color: rebeccapurple;
+    transform: translate(-13px);
+  }
+
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+    color: red;
+    transform: translate(-16x);
+  }
+
+  30% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg);
+    color: rebeccapurple;
+    transform: translate(-19px);
+  }
+
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+    color: red;
+    transform: translate(-22px);
+  }
+
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+    color: rebeccapurple;
+    transform: translate(-25px);
+  }
+
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+    color: red;
+    transform: translate(-28px);
+  }
+
+  70% {
+    -webkit-transform: translate(2px, 1px) rotate(-1deg);
+    color: rebeccapurple;
+    transform: translate(-31px);
+  }
+
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+    color: red;
+    transform: translate(-34px);
+  }
+
+  90% {
+    -webkit-transform: translate(2px, 2px) rotate(0deg);
+    color: rebeccapurple;
+    transform: translate(-37px);
+  }
+
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+    color: red;
+    transform: translate(-40px);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: translate(2px, 1px) rotate(0deg);
+    color: red;
+    transform: translate(-10x);
+  }
+
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+    color: rebeccapurple;
+    transform: translate(-13px);
+  }
+
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+    color: red;
+    transform: translate(-16x);
+  }
+
+  30% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg);
+    color: rebeccapurple;
+    transform: translate(-19px);
+  }
+
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+    color: red;
+    transform: translate(-22px);
+  }
+
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+    color: rebeccapurple;
+    transform: translate(-25px);
+  }
+
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+    color: red;
+    transform: translate(-28px);
+  }
+
+  70% {
+    -webkit-transform: translate(2px, 1px) rotate(-1deg);
+    color: rebeccapurple;
+    transform: translate(-31px);
+  }
+
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+    color: red;
+    transform: translate(-34px);
+  }
+
+  90% {
+    -webkit-transform: translate(2px, 2px) rotate(0deg);
+    color: rebeccapurple;
+    transform: translate(-37px);
+  }
+
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+    color: red;
+    transform: translate(-40px);
+  }
+}
+
 /* width */
 
 ::-webkit-scrollbar {
@@ -10949,6 +11098,10 @@ div .img {
 /* computadora*/
 
 @media screen and (min-width: 601px) {
+  body {
+    background-image: url("/images/back2.jpg");
+  }
+
   .sizes {
     font-family: "normal";
     color: green;
@@ -10956,7 +11109,8 @@ div .img {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 3.5rem;
-    transition: width 2s, height 2s;
+    transition: all 0.5s ease-in-out;
+    text-shadow: 0%;
   }
 
   .sizes:hover {
@@ -10979,6 +11133,10 @@ div .img {
 /* movil */
 
 @media screen and (max-width: 600px) {
+  body {
+    background-image: url("/images/back.jpg");
+  }
+
   .sizes {
     font-family: "saira";
     color: green;
