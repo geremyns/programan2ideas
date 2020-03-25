@@ -29,7 +29,11 @@
 
 body{
     background-color: #DFF0D8;
+    overflow-x: hidden;
+
 }
+
+
 
 .bodys{
 
@@ -64,7 +68,7 @@ div .img{
   }
 
   @keyframes shake {
-    0% { -webkit-transform: translate(2px, 1px) rotate(0deg); color: red; transform: translate(-10x);}
+    0% { -webkit-transform: translate(2px, 1px) rotate(0deg); color: red; transform: translate(-10x); }
 	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); color: rebeccapurple; transform: translate(-13px);}
 	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg);  color: red; transform: translate(-16x); }
 	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); color: rebeccapurple; transform: translate(-19px);}
@@ -77,11 +81,32 @@ div .img{
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg);  color: red; transform: translate(-40px);}
   }
 
+
+.contenedor-img{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.absolute{
+    position: absolute;
+}
+.texto-encima-img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 //------------------SCROLL BAR -------------------//
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
-    display: none;
+
   }
 
 
@@ -92,12 +117,12 @@ div .img{
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(64, 192, 224);
+    background:  #343a40;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: rgb(64, 192, 224);
   }
 //________________________________________________//
 
@@ -105,8 +130,9 @@ div .img{
 /* computadora*/
 @media screen and (min-width: 601px) {
     body{
-        background-image: url('/images/back2.jpg');
 
+        background: rgb(241,239,239);
+        background: linear-gradient(90deg, rgba(241,239,239,1) 0%, rgba(159,155,255,1) 100%, rgba(0,212,255,1) 100%);
     }
     .sizes{
         font-family: 'normal';
@@ -133,6 +159,7 @@ div .img{
         padding-top: 8%;
         padding-left: 20%;
     }
+
 
 
   }
@@ -166,4 +193,13 @@ div .img{
         padding-top: 8%;
         padding-bottom: 8%;
     }
+
+    .disp-mob-none{
+        display: none;
+    }
+
+//-------------------Nav Bar-------------------------//
+
+
+//-------------------End Nav Bar-------------------------//
   }
