@@ -13,6 +13,7 @@
 
     </head>
     <body>
+
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark disp-mob-none">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Programan2Ideas</a>
@@ -32,9 +33,9 @@
                   Tiendas
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Tienda de Ventas</a>
-                  <a class="dropdown-item" href="#">Logearse</a>
-                  <a class="dropdown-item" href="#">Link 3</a>
+                  <a class="dropdown-item" href="#">Deporte</a>
+                  <a class="dropdown-item" href="#">Electroncica</a>
+                  <a class="dropdown-item" href="#">Retail</a>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -42,18 +43,8 @@
                   Información
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Tienda de Ventas</a>
-                  <a class="dropdown-item" href="#">Logearse</a>
-                  <a class="dropdown-item" href="#">Link 3</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                  Deportes
-                </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Tienda de Ventas</a>
-                  <a class="dropdown-item" href="#">Logearse</a>
+                  <a class="dropdown-item" href="#">Deporte</a>
+                  <a class="dropdown-item" href="#">Electroncica</a>
                   <a class="dropdown-item" href="#">Link 3</a>
                 </div>
               </li>
@@ -120,8 +111,8 @@
                     </div>
                 </div>
                 <div class="col-sm ">
-                    <div class="container ">
-                        <img class="img-fluid float-lefts shake rounded-pill" src="/images/HOME5.png" alt="Mi foto" width="100%" height="100%">
+                    <div class="container custom-shadow ">
+                        <img class="img-fluid float-lefts shake rounded-pill " src="/images/HOME5.png" alt="Mi foto" width="100%" height="100%">
                     </div>
                 </div>
             </div>

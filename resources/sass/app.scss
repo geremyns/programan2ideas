@@ -27,6 +27,16 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+//fontawesome
+$fa-font-path: "../webfonts";
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+
+
+
 body{
     background-color: #DFF0D8;
     overflow-x: hidden;
@@ -102,6 +112,12 @@ div .img{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.custom-shadow{
+    -webkit-box-shadow: 5px 31px 152px 133px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 31px 152px 133px rgba(0,0,0,0.75);
+    box-shadow: 5px 31px 152px 133px rgba(0,0,0,0.75);
+}
 //------------------SCROLL BAR -------------------//
 /* width */
 ::-webkit-scrollbar {
@@ -112,7 +128,7 @@ div .img{
 
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #d33c3c;
+    background: white;
   }
 
   /* Handle */
