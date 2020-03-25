@@ -45,7 +45,7 @@
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Deporte</a>
                   <a class="dropdown-item" href="#">Electroncica</a>
-                  <a class="dropdown-item" href="#">Link 3</a>
+                  <a class="dropdown-item" href="#">Ultimo minuto</a>
                 </div>
               </li>
             </ul>
@@ -73,50 +73,8 @@
                 </div>
             </div>
         </div>
-        <div class="contenedor-img">
-            <div class="row ">
-                <div class="col-sm ">
-                    <div class="contaniner">
-                        <div class="col t-home img-fluid">
-                            <h2 id="demo" class="sizes shake">Programador</h2>
-                            <h2 class="sizes shake">Bootstrap</h2>
-                            <h2 class="sizes shake">Eloquent</h2>
-                            <h2 class="sizes shake">Laravel</h2>
-                            <h2 class="sizes shake">Vuejs</h2>
-                            <h2 class="sizes shake">CSS</h2>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm ">
-                    <div class="container ">
-                        <img class="img-fluid float-lefts shake rounded-pill" src="/images/HOME5.png" alt="Mi foto" width="100%" height="100%">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="contenedor-img">
-            <div class="row ">
-                <div class="col-sm ">
-                    <div class="contaniner">
-                        <div class="col t-home img-fluid">
-                            <h2 id="demo" class="sizes shake">Programador</h2>
-                            <h2 class="sizes shake">Bootstrap</h2>
-                            <h2 class="sizes shake">Eloquent</h2>
-                            <h2 class="sizes shake">Laravel</h2>
-                            <h2 class="sizes shake">Vuejs</h2>
-                            <h2 class="sizes shake">CSS</h2>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm ">
-                    <div class="container custom-shadow ">
-                        <img class="img-fluid float-lefts shake rounded-pill " src="/images/HOME5.png" alt="Mi foto" width="100%" height="100%">
-                    </div>
-                </div>
-            </div>
-        </div>
     </body>
 
 
