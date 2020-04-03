@@ -9,6 +9,13 @@
 }
 
 @font-face{
+    font-family: logox;
+    src: url('/fonts/Bungee-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
     font-family: normals;
     src: url('/fonts/Chango-Regular.ttf');
     font-weight: normal;
@@ -21,6 +28,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 // Variables
 @import 'variables';
 
@@ -142,6 +150,18 @@ div .img{
   }
 //________________________________________________//
 
+.navbar-brand {
+
+    font-size: 1.6rem !important;
+    font-family: 'logox';
+
+}
+
+.nav-link {
+
+    font-family: 'logox';
+
+}
 
 /* computadora*/
 @media screen and (min-width: 601px) {
@@ -175,7 +195,6 @@ div .img{
         padding-top: 8%;
         padding-left: 20%;
     }
-
 
 
   }

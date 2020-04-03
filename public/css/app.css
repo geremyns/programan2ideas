@@ -8,6 +8,13 @@
 }
 
 @font-face {
+  font-family: logox;
+  src: url("/fonts/Bungee-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: normals;
   src: url("/fonts/Chango-Regular.ttf");
   font-weight: normal;
@@ -17162,6 +17169,15 @@ div .img {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #40c0e0;
+}
+
+.navbar-brand {
+  font-size: 1.6rem !important;
+  font-family: "logox";
+}
+
+.nav-link {
+  font-family: "logox";
 }
 
 /* computadora*/
