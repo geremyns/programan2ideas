@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('welcomeg');
+    return view('pages/home');
 });
 Route::get('/1', function () {
     return view('welcome');
@@ -21,3 +21,12 @@ Route::get('/1', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//ruta para about me
+Route::get('/about','PagesController@about')->name('about');
+
+//ruta para contact
+
+Route::get('/contact','PagesController@contact')->name('contact');
+
+

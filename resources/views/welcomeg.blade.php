@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Blog Personal</title>
+        <title>@yield('title','Home')</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -13,19 +13,17 @@
         @yield('css')
     </head>
     <body>
-
-
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark disp-mob-none">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">Programan2Ideas</a>
+            <a class="navbar-brand" href="{{url('/')}}">Programan2Ideas</a>
 
             <!-- Links -->
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre mi</a>
+                <a class="nav-link" href="{{url('/about')}}" href="#">Sobre mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="{{url('/contact')}}">Contacto</a>
               </li>
 
               <!-- Dropdown -->
@@ -44,31 +42,7 @@
                 </div>
               </li>
             </ul>
-          @yield('nav')</nav>
-
-        <div class="contenedor-img">
-            <div class="row ">
-                <div class="col-sm ">
-                    <div class="contaniner">
-                        <div class="col t-home img-fluid">
-                            <h2 id="demo" class="sizes shake">Programador</h2>
-                            <h2 class="sizes shake">Bootstrap</h2>
-                            <h2 class="sizes shake">Eloquent</h2>
-                            <h2 class="sizes shake">Laravel</h2>
-                            <h2 class="sizes shake">Vuejs</h2>
-                            <h2 class="sizes shake">CSS</h2>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm ">
-                    <div class="container ">
-                        <img class="img-fluid float-lefts shake rounded-pill" src="/images/HOME5.png" alt="Mi foto" width="100%" height="100%">
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        </nav>
         @yield('contents')
     </body>
 

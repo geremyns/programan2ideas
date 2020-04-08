@@ -48,7 +48,7 @@ $fa-font-path: "../webfonts";
 body{
     background-color: #DFF0D8;
     overflow-x: hidden;
-
+    scroll-behavior: smooth;
 }
 
 
@@ -402,8 +402,8 @@ div .img{
         background: linear-gradient(90deg, rgba(241,239,239,1) 0%, rgba(159,155,255,1) 100%, rgba(0,212,255,1) 100%);
     }
     .sizes{
-        font-family: 'normal';
-        color: green;
+        font-family: 'logox';
+        color: rgb(15, 14, 14);
         width: 80%;
         margin-top: 10px;
         margin-bottom: 10px;

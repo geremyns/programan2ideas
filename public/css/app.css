@@ -16955,6 +16955,7 @@ readers do not read off random characters that represent icons */
 body {
   background-color: #DFF0D8;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .bodys {
@@ -17390,8 +17391,8 @@ div .img {
   }
 
   .sizes {
-    font-family: "normal";
-    color: green;
+    font-family: "logox";
+    color: #0f0e0e;
     width: 80%;
     margin-top: 10px;
     margin-bottom: 10px;
