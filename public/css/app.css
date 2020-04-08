@@ -17401,6 +17401,16 @@ div .img {
     text-shadow: 0%;
   }
 
+  .sizes-home {
+    margin-left: auto;
+    font-family: "logox";
+    color: #0f0e0e;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+  }
+
   .sizes:hover {
     font-family: "normal";
     color: blue;
@@ -17417,10 +17427,18 @@ div .img {
     padding-left: 20%;
   }
 
+  .dropdown-menu {
+    background-color: #01c501;
+  }
+
   .dropdown-item {
     width: 15rem !important;
     padding: 0.25rem 1.8rem !important;
     font-family: "logox" !important;
+  }
+
+  .dropdown-item:hover {
+    background-color: green;
   }
 
   .dropdown-item:hover #ball {

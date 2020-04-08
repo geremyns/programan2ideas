@@ -33,11 +33,11 @@
                 </a>
                 <div class="dropdown-menu">
 
-                  <a class="dropdown-item float-left" href="{{url('/1')}}" target="_blank">Deporte <i id="ball" class="fas fa-futbol fa-lg float-right"></i></a>
-                  <a class="dropdown-item float-left" href="#">Electroncica <i id="bot" class="fas fa-robot fa-lg float-right"></i></a>
-                  <a class="dropdown-item" href="#">Ropa <i id="shop" class="fas fa-shopping-bag fa-lg float-right"></i></a>
-                  <a class="dropdown-item" href="#">Comida <i id="food" class="fas fa-utensils fa-lg  float-right"></i></a>
-                  <a class="dropdown-item" href="#">Transporte <i id="car" class="fas fa-car fa-lg  float-right"></i></a>
+                  <a class="dropdown-item float-left" href="{{url('/1')}}" target="_blank">Deporte <i id="ball" class="mt-1 fas fa-futbol fa-lg float-right"></i></a>
+                  <a class="dropdown-item float-left" href="#">Electroncica <i id="bot" class="mt-1 fas fa-robot fa-lg float-right"></i></a>
+                  <a class="dropdown-item" href="#">Ropa <i id="shop" class="mt-1 fas fa-shopping-bag fa-lg float-right"></i></a>
+                  <a class="dropdown-item" href="#">Comida <i id="food" class="mt-1 fas fa-utensils fa-lg  float-right"></i></a>
+                  <a class="dropdown-item" href="#">Transporte <i id="car" class="mt-1 fas fa-car fa-lg  float-right"></i></a>
 
                 </div>
               </li>
