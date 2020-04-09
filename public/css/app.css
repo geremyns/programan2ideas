@@ -17482,6 +17482,10 @@ div .img {
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
   }
+
+  .disp-pc-none {
+    display: none;
+  }
 }
 
 /* movil */
@@ -17501,6 +17505,37 @@ div .img {
     font-size: 2rem;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .sizes-home {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "logox";
+    color: #0f0e0e;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+
+  .sizes-home-xs {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "logox";
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+
+  .sizes-home-xs-2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "logox";
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
   }
 
   .sizes:hover {

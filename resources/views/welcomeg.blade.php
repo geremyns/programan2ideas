@@ -13,7 +13,12 @@
         @yield('css')
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark disp-mob-none">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark disp-mob-none" style="background-color: #333;
+
+        position: fixed; /* Set the navbar to fixed position */
+        top:0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+        z-index:9999999;">
             <!-- Brand -->
             <a class="navbar-brand" href="{{url('/')}}">Programan2Ideas</a>
 
@@ -43,6 +48,24 @@
               </li>
             </ul>
         </nav>
+
+        <div class="container disp-pc-none" style="background-color: #333;
+        overflow: hidden;
+        position: fixed; /* Set the navbar to fixed position */
+        top:0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+        z-index:9999999;">
+
+            <div type="button" class="col-12 bg-dark text-center" data-toggle="collapse" data-target="#demo"><i class="fas fa-bars fa-3x "></i> </div>
+            <div id="demo" class="collapse">
+                <div class="container">
+                    <div class="col-sm-12">
+                        <h1 class="sizes-home-xs">Programan2Ideas</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         @yield('contents')
     </body>
 

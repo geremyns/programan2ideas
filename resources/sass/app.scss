@@ -495,6 +495,9 @@ div .img{
         animation-fill-mode: both;
     }
 
+    .disp-pc-none{
+        display: none;
+    }
 
 
   }
@@ -517,6 +520,36 @@ div .img{
         margin-left: auto;
         margin-right: auto;
     }
+
+    .sizes-home{
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'logox';
+        color: rgb(15, 14, 14);
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 2.5rem;
+    }
+    .sizes-home-xs{
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'logox';
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+    }
+    .sizes-home-xs-2{
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'logox';
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+    }
+
 
     .sizes:hover{
         font-family: 'saira';

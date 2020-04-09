@@ -7,7 +7,7 @@
 
 @section('contents')
 
-<div class="contenedor-img">
+<div class="contenedor-img mt-5">
     <div class="row ">
         <div class="col-sm ">
 
