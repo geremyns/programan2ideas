@@ -56,7 +56,7 @@
         width: 100%; /* Full width */
         z-index:9999999;">
 
-            <div type="button" class="col-12 bg-dark text-center" data-toggle="collapse" data-target="#demo"><i class="fas fa-bars fa-3x "></i> </div>
+            <div type="button" class="col-12 bg-dark text-center" data-toggle="collapse" data-target="#demo"><i class="fas fa-bars fa-3x mt-2 "></i> </div>
             <div id="demo" class="collapse">
                 <div class="container">
                     <div class="col-sm-12">
