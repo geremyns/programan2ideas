@@ -68,7 +68,7 @@
                     <div class="col-sm-12 mt-1 mb-1">
                         <h5 class="sizes-home-xs-2 text-muted"><a href="{{url('/contact')}}">Contacto</a> </h5>
                     </div>
-                    <div class="col-sm-12 mt-1 mb-1">
+                    <div class="col-sm-12 mt-1 mb-3">
                         <h5 class="sizes-home-xs-2 text-muted">Tiendas </h5>
                         <a class="dropdown-item  text-muted float-left" href="{{url('/1')}}" target="_blank">Deporte <i id="ball" class="mt-1 fas fa-futbol fa-lg float-right"></i></a>
                         <a class="dropdown-item  text-muted float-left" href="#">Electroncica <i id="bot" class="mt-1 fas fa-robot fa-lg float-right"></i></a>
