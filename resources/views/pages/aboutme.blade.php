@@ -33,9 +33,13 @@
 
 @endsection
 @section('scripts')
+
 <style>
 
-html {
+/* computadora*/
+@media screen and (min-width: 601px) {
+
+    html {
     background: url('images/HOME7.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size:  cover;
@@ -51,5 +55,28 @@ body{
 
 
 }
+}
+  /* movil */
+  @media screen and (max-width: 600px) {
+
+    html {
+    background: url('images/HOME-7.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover ;
+
+}
+
+body{
+
+    background-color: transparent !important;
+    background: transparent;
+
+
+}
+
+  }
+</style>
 </style>
 @endsection
